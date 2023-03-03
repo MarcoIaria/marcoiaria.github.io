@@ -8,13 +8,16 @@ html{
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .container{
     background-color: hsl(0, 0%, 100%);
     width: 300px;
     padding: 15px;
-    margin: 200px auto;
     border-radius: 15px;
 }
 
